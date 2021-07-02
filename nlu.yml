@@ -1,0 +1,173 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Hi
+    - Hello
+- intent: hello_world
+  examples: |
+    - world
+    - programming
+    - first program
+    - Run hello world program
+    - Run hello world
+    - hello world
+    - Run Hello world
+    - run hello world
+    - Run hellow world
+    - World Hello
+    - Run World
+- intent: search_restaurant
+  examples: |
+    - show me [indian](hotel) restaurant
+    - show me [chinese](hotel) restaurant
+    - show me [thai](hotel) restaurant
+    - show me [Japanese](hotel) restaurant
+    - show me [italian](hotel) restaurant
+    - [indian](hotel) restaurant
+    - [Indian](hotel) restaurant around me
+    - [Indian](hotel) cuisine restaurant
+    - get [indian](hotel) restaurants
+- intent: corona_state
+  examples: |
+    - [india](state)
+    - [corona](state)
+    - [karnataka](state)
+    - [Andra Pradesh](state)
+    - [corona] in [Punjab](state)
+    - Karnataka Corona
+    - can you please get me Karnataka corona cases
+    - Karnataka Corona Cases
+    - can you please get me [Punjab](state) corona cases
+    - get [karnataka](state) corona
+    - what are the active corona cases in [Delhi](state)
+    - what are active cases of corona in [Delhi](state)
+    - what are the active corona cases in [Punjab](state)
+    - active cases in [Delhi](state)
+    - active cases of corona in [Delhi](state)
+    - Active cases in Maharastra
+    - cases in Delhi
+    - get me cases in goa
+    - cases in [goa](state)
+    - cases in [delhi](state)
+    - cases in [karnataka](state)
+    - get corona cases in [delhi](state)
+    - Corona cases in [Delhi](state)
+    - Corona cases in [kerala](state)
+    - Corona Cases in [Kerala](state)
+    - corona cases in [Delhi](state)
+    - active cases in [Punjab](state)
+    - active cases of corona in [delhi](state)
+    - cases in [Andhra Pradesh](state)
+    - cases in [Andra Pradesh](state)
+    - get corona cases in [Tamil Nadu](state)
+    - active cases in [Maharashtra](state)
+    - Active corona cases in [Maharashtra](state)
+    - Active Cases in [Maharastra](state)
+    - active corona cases in [Tamil nadu](state)
+    - active cases in [tamil nadu](state)
+    - active corona cases in Maharashtra
+    - get [Maharashtra](state) corona cases
+    - Corona [Maharashtra](state)
+    - get me active corona cases of [Maharashtra](state)
+    - active cases of corona in [tamil nadu](state)
+    - [kerala](state)
+    - actives cases in [Kerala](state)
+    - cases in [Kerala](state)
+    - cases of corona in [Mizoram](state)
+    - active cases in [manipur](state)
+    - active cases in [Manipur](state)
+    - Mizoram
+    - get [karnataka](state) active corona cases
+    - active cases in [goa](state)
+    - what is active corona cases in [Karnataka](state)
+    - get active corona cases in [Maharashtra](state)
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - see you
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - Yes
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - Good
+    - good
+    - Good thank you
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - Not good
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - Corona cases in Swiss
+    - what do you do?

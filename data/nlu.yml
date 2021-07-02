@@ -17,6 +17,26 @@ nlu:
     - goodevening
     - good afternoon
 
+- intent: buy_phone_laptop
+  examples: |
+    - I want to buy a [laptop](category)
+    - I would like to buy a [phone](category)
+    - Please suggest me a good [laptop](category)
+    - Do you have a good [phone](category)
+    - give me some recommendations for [laptop](category)
+    - can you suggest a [phone](category)
+    - i'm interested in purchasing a [laptop](category)
+
+- intent: latest_news_phone_laptop
+  examples: |
+    - Trending [phone](category)
+    - Latest [laptops](category)
+    - What's going on in world of [phone](category)
+    - can you show trends in [laptops](category)
+    - any new releases for laptops [phone](category), what's the news
+    - updated me on the [laptop](category) news
+    - show me some latest news for the [phone](category)
+
 - intent: goodbye
   examples: |
     - good afternoon
