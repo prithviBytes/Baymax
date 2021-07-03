@@ -6,8 +6,3 @@ stories:
    - intent: subscribe
    - action: newsletter_form
    - active_loop: newsletter_form
-
- - story: greet and 
-   steps:
-   - intent: bot_challenge
-   - action: utter_i_am_bot
