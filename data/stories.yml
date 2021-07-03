@@ -11,3 +11,8 @@ stories:
    steps:
    - intent: bot_challenge
    - action: utter_i_am_bot
+
+ - story: goodbye
+   steps:
+   - intent: goodbye
+   - action: utter_goodbye

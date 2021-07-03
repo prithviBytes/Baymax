@@ -24,3 +24,9 @@ nlu:
   examples: |
    - Are you a bot?
    - are you human?
+
+- intent: goodbye
+  examples: |
+   - Bye
+   - cya
+   - good bye

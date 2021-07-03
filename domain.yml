@@ -26,11 +26,15 @@ responses:
   utter_i_am_bot:
   - text: |
       Yes I am a bot powered by rasa x!
+  utter_goodbye:
+  - text: |
+      Good Bye! Have a Nice day!
 actions:
 - '...'
 - utter_greet
 - utter_subscribed
 - utter_i_am_bot
+- utter_goodbye
 forms:
   newsletter_form:
     required_slots:
