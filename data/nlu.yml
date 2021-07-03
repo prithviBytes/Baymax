@@ -19,3 +19,8 @@ nlu:
     - random@example.com
     - Please send it to anything@example.com
     - Email is something@example.com
+
+- intent: bot_challenge
+  examples: |
+   - Are you a bot?
+   - are you human?
