@@ -1,112 +1,21 @@
-version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - Hi
+    - Hey!
+    - Hallo
+    - Good day
+    - Good morning
 
-- intent: buy_phone_laptop
+- intent: subscribe
   examples: |
-    - I want to buy a [laptop](category)
-    - I would like to buy a [phone](category)
-    - Please suggest me a good [laptop](category)
-    - Do you have a good [phone](category)
-    - give me some recommendations for [laptop](category)
-    - can you suggest a [phone](category)
-    - i'm interested in purchasing a [laptop](category)
+    - I want to get the newsletter
+    - Can you send me the newsletter?
+    - Can you sign me up for the newsletter?
 
-- intent: latest_news_phone_laptop
+- intent: inform
   examples: |
-    - Trending [phone](category)
-    - Latest [laptops](category)
-    - What's going on in world of [phone](category)
-    - can you show trends in [laptops](category)
-    - any new releases for laptops [phone](category), what's the news
-    - updated me on the [laptop](category) news
-    - show me some latest news for the [phone](category)
-
-- intent: goodbye
-  examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - My email is example@example.com
+    - random@example.com
+    - Please send it to anything@example.com
+    - Email is something@example.com
