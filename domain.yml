@@ -7,6 +7,7 @@ intents:
 - inform
 - subscribe
 - bot_challenge
+- buy_phone_laptop
 - goodbye
 slots:
   email:
@@ -28,6 +29,9 @@ responses:
   utter_i_am_bot:
   - text: |
       Yes I am a bot powered by rasa x!
+  utter_laptop_phone_suggestions:
+  - text: |
+      I will mail you a list of some laptops or phones
   utter_goodbye:
   - text: |
       Good Bye! Have a Nice day!
@@ -37,6 +41,7 @@ actions:
 - utter_subscribed
 - utter_i_am_bot
 - utter_goodbye
+- utter_laptop_phone_suggestions
 forms:
   newsletter_form:
     required_slots:

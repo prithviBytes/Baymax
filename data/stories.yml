@@ -12,6 +12,12 @@ stories:
    - intent: bot_challenge
    - action: utter_i_am_bot
 
+ - story: buying laptop or phone
+   steps:
+   - intent: buy_phone_laptop
+   - action: utter_laptop_phone_suggestions
+
+
  - story: goodbye
    steps:
    - intent: goodbye

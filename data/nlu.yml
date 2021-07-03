@@ -25,8 +25,20 @@ nlu:
    - Are you a bot?
    - are you human?
 
+- intent: buy_phone_laptop
+  examples: |
+   - I want to buy a [phone](category)
+   - suggest me some good [laptops](category)
+   - Do you have a good [phone](category)
+   - Planning to buy a new [laptop](category)
+
 - intent: goodbye
   examples: |
    - Bye
    - cya
    - good bye
+
+- synonym: phone
+  examples: |
+    - mobile
+    - cellphone
