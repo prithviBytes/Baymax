@@ -8,6 +8,7 @@ intents:
 - subscribe
 - bot_challenge
 - buy_phone_laptop
+- book_flight
 - goodbye
 slots:
   email:
@@ -32,6 +33,9 @@ responses:
   utter_laptop_phone_suggestions:
   - text: |
       I will mail you a list of some laptops or phones
+  utter_booked_flight:
+  - text: |
+      Booking Flight from {source}
   utter_goodbye:
   - text: |
       Good Bye! Have a Nice day!
@@ -42,8 +46,13 @@ actions:
 - utter_i_am_bot
 - utter_goodbye
 - utter_laptop_phone_suggestions
+- utter_booked_flight
 forms:
   newsletter_form:
     required_slots:
       email:
+      - type: from_text
+  booking_form:
+    required_slots:
+      source:
       - type: from_text

@@ -25,12 +25,19 @@ nlu:
    - Are you a bot?
    - are you human?
 
+- intent: book_flight
+  examples: |
+   - I want to book a flight from [Mumbai](source)
+   - Book flight from [Bangalore](source)
+   - Travelling from [Chennai](source)
+
 - intent: buy_phone_laptop
   examples: |
    - I want to buy a [phone](category)
    - suggest me some good [laptops](category)
    - Do you have a good [phone](category)
    - Planning to buy a new [laptop](category)
+   - I want to buy a [andriod](category)
 
 - intent: goodbye
   examples: |
@@ -42,3 +49,10 @@ nlu:
   examples: |
     - mobile
     - cellphone
+    - andriod
+
+- lookup: source
+  examples: |
+    - Mumbai
+    - Bangalore
+    - Chennai

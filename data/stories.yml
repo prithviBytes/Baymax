@@ -17,6 +17,10 @@ stories:
    - intent: buy_phone_laptop
    - action: utter_laptop_phone_suggestions
 
+ - story: booking flight
+   steps:
+   - intent: book_flight
+   - action: utter_booked_flight
 
  - story: goodbye
    steps:
